@@ -23,7 +23,7 @@ This will open the AWS Code Pipeline console, and you should see a pipeline.
 
 You may see that, either the **Source** action or the **Build** action is in-progress. 
 This is because, when the code pipeline is created for the first time, it automatically 
-gets triggered and start the pipeline execution. 
+gets triggered and starts the pipeline execution. 
 
 The **Source** action of the pipeline takes the code from the AWS Code Commit repository 
 and puts it into an S3 bucket. This S3 bucket acts as a source for the next stage of the 
